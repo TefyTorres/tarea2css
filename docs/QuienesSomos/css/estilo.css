@@ -1,0 +1,103 @@
+/* aplicar un estilo de fuente */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background: rgb(10, 233, 3);
+  background: radial-gradient(
+    circle,
+    rgb(213, 228, 2) 0%,
+    rgb(65, 226, 159) 100%
+  );
+}
+
+/* Clases Globales*/
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: cursive;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: cursive;
+  text-align: center;
+  border: 0 auto;
+}
+
+.unico {
+  text-align: center;
+  background-color: rgb(57, 226, 5);
+  border: 5px double #f1400ad0;
+  padding: 50px 50px;
+  margin: 10px auto;
+  width: 80%;
+}
+
+
+h3 {
+  font-family: cursive;
+  font-size: 1.3rem;
+}
+
+p {
+  font-family: cursive;
+}
+
+/* navbar */
+header {
+  border-bottom: 5px solid #f33f08d0;
+}
+.nav {
+  background: rgb(228, 245, 82);
+  padding: 0 2rem;
+  height: 0rem;
+  min-height: 10vh;
+  overflow: hidden;
+  transition: height 1s ease-in-out;
+}
+
+.nav .nav-menu {
+  justify-content: space-between;
+}
+
+.nav .nav-items {
+  display: flex;
+  margin: 0;
+}
+
+.nav .nav-items .nav-link {
+  padding: 1.6rem 1rem;
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.nav .nav-items .nav-link:hover {
+  background-color: #f7880a;
+}
+
+.nav .nav-brand img {
+  width: 80px;
+  padding: 1rem 0;
+  display: block;
+}

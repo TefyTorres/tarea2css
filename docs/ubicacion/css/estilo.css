@@ -1,0 +1,113 @@
+/* aplicar un estilo de fuente */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background: rgb(47, 176, 105);
+  background: radial-gradient(
+    circle,
+    rgb(47, 176, 105) 0%,
+    rgba(190, 190, 190, 1) 100%
+  );
+}
+
+/* Clases Globales*/
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: cursive;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: cursive;
+  text-align: center;
+  border: 0 auto;
+}
+
+.unico {
+  text-align: center;
+  background-color: rgb(133, 233, 113);
+  border: 5px double #f7df0ed0;
+  padding: 50px 50px;
+  margin: 10px auto;
+  width: 80%;
+}
+
+.unico2{
+  background-color: rgb(113, 233, 173);
+  border: 5px double #f7de05d0;
+  font-family: cursive;
+  text-align: left;
+  padding: 50px 50px;
+  margin: 10px 10px;
+  width: 90%;
+}
+
+h3 {
+  font-family: cursive;
+  font-size: 1.3rem;
+}
+
+p {
+  font-family: cursive;
+}
+
+/* navbar */
+header {
+  border-bottom: 5px solid #f5d106d0;
+}
+.nav {
+  background: rgb(124, 224, 104);
+  padding: 0 2rem;
+  height: 0rem;
+  min-height: 10vh;
+  overflow: hidden;
+  transition: height 1s ease-in-out;
+}
+
+.nav .nav-menu {
+  justify-content: space-between;
+}
+
+.nav .nav-items {
+  display: flex;
+  margin: 0;
+}
+
+.nav .nav-items .nav-link {
+  padding: 1.6rem 1rem;
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.nav .nav-items .nav-link:hover {
+  background-color: #f7dc94;
+}
+
+.nav .nav-brand img {
+  width: 80px;
+  padding: 1rem 0;
+  display: block;
+}
+
